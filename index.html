@@ -7,6 +7,7 @@
 
   <!-- Main stylesheet -->
   <link rel="stylesheet" href="styles.css" />
+  <script src="animations.js" defer></script>
 </head>
 
 <body>
@@ -25,36 +26,36 @@
       <!-- ===== TEXT BLOCK ===== -->
       <div class="hero-text">
 
-        <h1 class="hero-title">
-          Le site est dans<br />
-          <span class="highlight">le four !</span>
+        <h1 class="hero-title reveal-on-scroll">
+          <span class="reveal-on-scroll reveal-delay-1">Le site est dans</span><br />
+          <span class="highlight reveal-on-scroll reveal-delay-2">le four !</span>
         </h1>
 
         <p class="hero-subtitle">
-          Soyez prêt pour la livraison.
+          <span class="reveal-on-scroll reveal-delay-3">Soyez prêt pour la livraison.</span>
         </p>
 
       </div>
 
       <!-- ===== IMAGE BLOCK ===== -->
       <div class="hero-visual">
-        <img src="./images/burrata.webp" alt="Pizza en préparation" />
+        <img src="./images/burrata.webp" alt="Pizza en préparation" class="pizza-rotate" />
       </div>
 
     </section>
 
     <section class="waiting">
         <div >
-          <span class="waiting-label">En attendant</span>
+          <span class="waiting-label reveal-on-scroll reveal-delay-3">En attendant</span>
           <ul class="waiting-info">
             <li>
-                <span class="zone">Dakar Plateau</span><br>
-                <span class="phone">33 829 03 04</span><br>
-                <span class="phone">78 803 23 23</span><br>
+                <span class="zone reveal-on-scroll">Dakar Plateau</span><br>
+                <span class="phone reveal-on-scroll reveal-delay-4">33 829 03 04</span><br>
+                <span class="phone reveal-on-scroll reveal-delay-5">78 803 23 23</span><br>
             </li> 
             <li>
-                <span class="zone">Almadies</span> <br>
-                <span class="phone">78 803 24 24</span>
+                <span class="zone reveal-on-scroll">Almadies</span> <br>
+                <span class="phone reveal-on-scroll reveal-delay-6">78 803 24 24</span>
             </li>
           </ul>
         </div>
