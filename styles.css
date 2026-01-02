@@ -80,7 +80,6 @@
 
 body {
   font-family: var(--font-main);
-  background-color: var(--color-white);
   color: var(--color-black);
   overflow: hidden;
   background-image: url('./images/fond-texture-en-marbre-noir.png');
@@ -200,6 +199,7 @@ body {
   body {
     overflow: auto;
     position: relative;
+    background-position: center;
   }
   .app {
     padding: 20px 40px;
