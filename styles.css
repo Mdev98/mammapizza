@@ -83,6 +83,7 @@ body {
   background-color: var(--color-white);
   color: var(--color-black);
   overflow: hidden;
+  background-image: url('./images/fond-texture-en-marbre-noir.png');
 }
 
 /* ================= APP ================= */
@@ -186,6 +187,7 @@ body {
 .hero-visual img {
   width: 45vw;
   max-width: 100%;
+  /* aspect-ratio: 1 / 1; */
   border-radius: 50%;
   display: block;
   opacity: 0;
