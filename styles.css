@@ -95,6 +95,16 @@ body {
   padding: 20px 80px;
 }
 
+.logo {
+  width: 24vw;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ================= HERO SECTION ================= */
 
 .hero {
@@ -208,8 +218,9 @@ body {
   }
 
   .logo {
-    width: fit-content;
+    width: 50vw;
     margin: auto;
+    transform: translateY(-32px);
   }
 
   .hero {
